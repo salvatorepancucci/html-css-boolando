@@ -85,7 +85,7 @@ footer {
 
 /* Content */
 
-content {
+.content {
     width: 100%;
 }
 
@@ -154,6 +154,11 @@ img.pics {
     position: absolute;
     bottom: 450px;
     right: 0px;
+}
+
+.heart:hover {
+    color: red;
+    cursor: pointer;
 }
 
 .social {
