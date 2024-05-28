@@ -82,3 +82,19 @@ img {
 img.pics {
     width: 300px;
 }
+
+.brand {
+    font-size: 11px;
+}
+
+.article {
+    font-size: 15px;
+}
+
+.price {
+    font-size: 13px;
+}
+
+#red-text {
+    color: red;
+}
