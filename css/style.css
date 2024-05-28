@@ -21,6 +21,15 @@ header {
     z-index: 1; */
 }
 
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: #1A1A1A;
+    color: white;
+    font-size: 14px;
+    margin-top: 370px;
+}
+
 /* Layout */
 
 .row {
@@ -49,6 +58,13 @@ header {
     justify-content: center;
 }
 
+.last-row {
+    width: 100%;
+    color: white;
+    padding: 22px;
+    padding-left: 230px;
+}
+
 .col-40 {
     width: 40%;
 }
@@ -62,10 +78,14 @@ header {
     position: relative;
 }
 
+.col-50 {
+    width: 50%;
+}
+
 /* Content */
 
 content {
-    width: 20px;
+    width: 100%;
 }
 
 ul {
@@ -133,6 +153,10 @@ img.pics {
     position: absolute;
     bottom: 450px;
     right: 0px;
+}
+
+.social {
+    text-align: center;
 }
 
 #red-text {
