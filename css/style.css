@@ -59,6 +59,7 @@ header {
 
 .col-33 {
     margin: 40px 15px;
+    position: relative;
 }
 
 /* Content */
@@ -93,6 +94,34 @@ img.pics {
 
 .price {
     font-size: 13px;
+}
+
+.label-red {
+    color: white;
+    text-align: center;
+    background-color: red;
+    width: 40px;
+    font-size: 12px;
+    padding: 2px;
+    position: absolute;
+    bottom: 90px;
+}
+
+.label-green {
+    color: white;
+    text-align: center;
+    background-color: green;
+    width: 80px;
+    font-size: 12px;
+    padding: 2px;
+    position: absolute;
+    bottom: 90px;
+    left: 45px;
+}
+
+.bottom {
+    position: absolute;
+    left: 0px
 }
 
 #red-text {
