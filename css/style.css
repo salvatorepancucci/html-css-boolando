@@ -124,6 +124,17 @@ img.pics {
     left: 0px
 }
 
+.heart {
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    width: 25px;
+    position: absolute;
+    bottom: 450px;
+    right: 0px;
+}
+
 #red-text {
     color: red;
 }
